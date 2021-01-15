@@ -1,6 +1,6 @@
 import requests
-print (requests, __version__)
+print (requests.__version__)
 
 r = requests.get('https://www.google.com')
 
-print(r, text)
+print(r.text)
